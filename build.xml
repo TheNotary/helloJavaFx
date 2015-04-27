@@ -30,7 +30,8 @@
  
       <fx:deploy width="300" height="250"
         outdir="." embedJNLP="true"
-        outfile="helloworld">
+        outfile="helloworld"
+        >
  
         <fx:application refId="HelloWorldID"/>
  
