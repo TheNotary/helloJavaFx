@@ -26,6 +26,10 @@
         <fx:application refid="HelloWorldID"/>
         <fx:resources refid="appRes"/>
         <fileset dir="${build.classes.dir}"/>
+
+        <manifest>
+          <attribute name="Class-Path" value="."/>
+        </manifest>
       </fx:jar>
  
       <fx:deploy width="300" height="250"
